@@ -1,6 +1,5 @@
 
-import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
-import { FaPaperPlane } from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin, FaPaperPlane } from "react-icons/fa";
 
 export default function Footer() {
   return (
