@@ -1,4 +1,6 @@
-import React from 'react'
+
+
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 export default function Blog() {
   return (
@@ -142,8 +144,12 @@ export default function Blog() {
         <div className="col-lg-12">
           <div className="testimonial-slider-wrap text-center">
             <div id="testimonial-nav">
-              <span className="prev" data-controls="prev"><span className="fa fa-chevron-left" /></span>
-              <span className="next" data-controls="next"><span className="fa fa-chevron-right" /></span>
+
+              {/* <span className="prev" data-controls="prev"><span className="fa fa-chevron-left" /></span>
+              <span className="next" data-controls="next"><span className="fa fa-chevron-right" /></span> */}
+
+              <span className="prev" data-controls="prev"><FaChevronLeft /></span>
+              <span className="next" data-controls="next"><FaChevronRight /></span>
             </div>
             <div className="testimonial-slider">
               <div className="item">
