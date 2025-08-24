@@ -22,7 +22,7 @@ export default function Footer() {
                   </div>
                   <div className="col-auto">
                     <button className="btn btn-primary">
-                      <span className="fa fa-paper-plane" />
+                      <FaPaperPlane />
                     </button>
                   </div>
                 </form>
